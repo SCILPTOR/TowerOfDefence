@@ -1,0 +1,591 @@
+﻿Log file open, 01/01/19 17:30:53
+LogInit:Display: Running engine for game: TopDownMiniGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1054398996) SRandInit(1054398998).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.086350
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: D:/UE_4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.01-09.30.53:709][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.01-09.30.53:709][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.01-09.30.53:725][  0]LogInit: Computer: 1-ПК
+[2019.01.01-09.30.53:725][  0]LogInit: User: 1
+[2019.01.01-09.30.53:725][  0]LogInit: CPU Page size=65536, Cores=2
+[2019.01.01-09.30.53:725][  0]LogInit: High frequency timer resolution =2.338486 MHz
+[2019.01.01-09.30.53:725][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2019.01.01-09.30.53:725][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.01-09.30.53:725][  0]LogMemory: Process Physical Memory: 314.75 MB used, 314.75 MB peak
+[2019.01.01-09.30.53:725][  0]LogMemory: Process Virtual Memory: 315.02 MB used, 315.02 MB peak
+[2019.01.01-09.30.53:725][  0]LogMemory: Physical Memory: 1641.86 MB used, 4010.14 MB total
+[2019.01.01-09.30.53:725][  0]LogMemory: Virtual Memory: 622.34 MB used, 8388608.00 MB total
+[2019.01.01-09.30.54:190][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2019.01.01-09.30.54:888][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.01-09.30.54:931][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2019.01.01-09.30.54:931][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 1 output[s]
+[2019.01.01-09.30.54:959][  0]LogD3D11RHI:    1. 'NVIDIA GeForce 410M' (Feature Level 11_0)
+[2019.01.01-09.30.54:959][  0]LogD3D11RHI:       979MB of dedicated video memory, 0MB of dedicated system memory, and 1749MB of shared system memory, 0 output[s]
+[2019.01.01-09.30.54:959][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.01-09.30.54:972][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.01-09.30.54:973][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2019.01.01-09.30.54:973][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2019.01.01-09.30.54:973][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.01.01-09.30.54:973][  0]LogRHI: Texture pool is 1297 MB (70% of 1854 MB)
+[2019.01.01-09.30.54:994][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.01-09.30.55:017][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Intermediate/Shaders/WorkingDirectory/716/).
+[2019.01.01-09.30.55:018][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/1/AppData/Local/Temp/UnrealShaderWorkingDir/1A98415546A6C8CFF07CCC9D0A76490D/'.
+[2019.01.01-09.30.55:018][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2019.01.01-09.31.15:529][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.01-09.31.15:539][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.01-09.31.15:547][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.01-09.31.15:554][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.01-09.31.15:561][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2019.01.01-09.31.15:567][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2019.01.01-09.31.15:573][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2019.01.01-09.31.15:578][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2019.01.01-09.31.15:584][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2019.01.01-09.31.15:590][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2019.01.01-09.31.15:595][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2019.01.01-09.31.15:607][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2019.01.01-09.31.15:607][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.01.01-09.31.15:608][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2019.01.01-09.31.15:629][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2019.01.01-09.31.15:634][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2019.01.01-09.31.15:640][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.01-09.31.15:645][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.01-09.31.15:651][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2019.01.01-09.31.15:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2019.01.01-09.31.15:778][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2019.01.01-09.31.15:866][  0]LogDerivedDataCache: Loaded boot cache 0.09s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.01-09.31.15:866][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2019.01.01-09.31.15:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.01-09.31.15:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.01-09.31.15:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.01-09.31.15:866][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.01-09.31.15:891][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.01-09.31.15:904][  0]LogDerivedDataCache: Using Local data cache path C:/Users/1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.01-09.31.16:230][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.01-09.31.16:231][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.01.01-09.31.16:283][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.01-09.31.16:541][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2019.01.01-09.31.16:541][  0]LogMeshUtilities: No automatic mesh merging module available
+[2019.01.01-09.31.16:541][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2019.01.01-09.31.17:543][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2019.01.01-09.31.17:556][  0]LogUObjectAllocator: 5591600 out of 0 bytes used by permanent object pool.
+[2019.01.01-09.31.17:566][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.01-09.31.17:585][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.01.01-09.31.21:167][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.01-09.31.21:168][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.01-09.31.27:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.01-09.31.27:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.01-09.31.27:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.01-09.31.27:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.01-09.31.27:405][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2019.01.01-09.31.27:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2019.01.01-09.31.46:656][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.01-09.31.47:400][  0]LogAssetRegistry: FAssetRegistry took 0.0206 seconds to start up
+[2019.01.01-09.31.55:662][  0]SourceControl: Info Source control is disabled
+[2019.01.01-09.31.55:717][  0]SourceControl: Info Source control is disabled
+[2019.01.01-09.31.56:850][  0]SourceControl: Info Source control is disabled
+[2019.01.01-09.31.57:279][  0]SourceControl: Info Source control is disabled
+[2019.01.01-09.32.05:177][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.01-09.32.07:486][  0]LogEngine: Initializing Engine...
+[2019.01.01-09.32.11:071][  0]LogAIModule: Creating AISystem for world NewWorld
+[2019.01.01-09.32.11:346][  0]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.01-09.32.11:549][  0]LogInit: FAudioDevice initialized.
+[2019.01.01-09.32.11:613][  0]LogDerivedDataCache: Saved boot cache 0.06s 46MB C:/Users/1/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2019.01.01-09.32.11:622][  0]LogInit: Texture streaming: Enabled
+[2019.01.01-09.32.12:763][  0]LogInit: Transaction tracking system initialized
+[2019.01.01-09.32.15:969][  0]BlueprintLog: New page: Editor Load
+[2019.01.01-09.32.25:702][  0]LocalizationService: Info Localization service is disabled
+[2019.01.01-09.32.37:646][  0]LogConsoleResponse:Display: 
+[2019.01.01-09.32.47:533][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/' took 0.02s
+[2019.01.01-09.32.47:533][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2019.01.01-09.32.47:534][  0]LogCook:Display: Mobile HDR setting 1
+[2019.01.01-09.32.47:563][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2019.01.01-09.32.53:683][  0]SourceControl: Info Source control is disabled
+[2019.01.01-09.32.53:828][  0]Cmd: MAP LOAD FILE="../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.01-09.32.54:049][  0]LightingResults: New page: Lighting Build
+[2019.01.01-09.32.54:714][  0]MapCheck: New page: Map Check
+[2019.01.01-09.32.54:714][  0]LightingResults: New page: Lighting Build
+[2019.01.01-09.33.20:409][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.01-09.33.21:248][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-09.33.23:553][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.01-09.33.24:172][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.01-09.33.24:431][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 258.643ms to complete.
+[2019.01.01-09.33.24:431][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 30.603
+[2019.01.01-09.33.29:325][  0]LogCollectionManager: Loaded 0 collections in 0.003622 seconds
+[2019.01.01-09.33.30:608][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Collections/' took 0.01s
+[2019.01.01-09.33.30:608][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Developers/1/Collections/' took 0.00s
+[2019.01.01-09.33.30:608][  0]LogFileCache: Scanning file cache for directory 'D:/sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Collections/' took 0.01s
+[2019.01.01-09.33.30:608][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2019.01.01-09.33.30:894][  0]LogContentBrowser: Native class hierarchy populated in 0.2445 seconds. Added 1979 classes and 343 folders.
+[2019.01.01-09.33.31:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.01-09.33.31:238][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.01-09.33.31:239][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2019.01.01-09.33.31:375][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.01-09.33.32:758][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.01.01-09.33.36:665][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.01-09.33.38:921][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.01-09.33.39:942][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2019.01.01-09.33.40:534][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2019.01.01-09.33.41:229][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.01.01-09.33.41:229][  0]LogLoad: Full Startup: 169.21 seconds (BP compile: 4.37 seconds)
+[2019.01.01-09.33.41:229][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2019.01.01-09.33.41:229][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2019.01.01-09.33.41:261][  0]LogOcInput: OculusInput pre-init called
+[2019.01.01-09.33.42:011][  0]LogContentStreaming: Texture pool size now 200 MB
+[2019.01.01-09.33.43:646][  0]LogRenderer: Reallocating scene render targets to support 652x648 (Frame:2).
+[2019.01.01-09.33.46:059][  4]LogAssetRegistry: Asset discovery search completed in 118.6774 seconds
+[2019.01.01-09.33.46:097][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.01-09.33.46:153][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.038230 seconds (updated 0 objects)
+[2019.01.01-09.34.17:014][660]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-09.34.54:740][103]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.34.54:858][103]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.34.58:687][103]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.34.58:740][103]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.34.58:774][103]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.34.58:855][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_110, compiling. 
+[2019.01.01-09.35.14:602][548]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.01.01-09.35.14:602][548]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-09.35.14:602][548]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.01.01-09.35.24:110][988]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.24:136][988]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.24:145][988]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.35.24:208][988]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_110, compiling. 
+[2019.01.01-09.35.27:626][113]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.27:673][113]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.27:687][113]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.35.27:760][113]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_110, compiling. 
+[2019.01.01-09.35.34:046][343]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.34:134][343]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.34:150][343]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.35.34:181][343]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_110, compiling. 
+[2019.01.01-09.35.46:039][652]LogMaterialEditor: Applying material Brick
+[2019.01.01-09.35.46:880][652]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.47:072][652]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.47:109][652]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.35.47:268][652]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.47:332][652]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.47:483][652]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.47:531][652]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.35.47:556][652]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.36.09:801][341]LogActorFactory: Actor Factory created modularBuildings_100
+[2019.01.01-09.36.10:746][356]LogActorFactory: Actor Factory created modularBuildings_100
+[2019.01.01-09.36.18:546][537]Cmd: DELETE
+[2019.01.01-09.36.18:546][537]Cmd: ACTOR DELETE
+[2019.01.01-09.36.18:849][537]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-09.36.19:185][537]LogEditorActor: Deleted 1 Actors (0.369 secs)
+[2019.01.01-09.36.19:316][538]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2019.01.01-09.36.19:316][538]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-09.36.19:316][538]MaterialEditorStats: Info Texture samplers: 3/16
+[2019.01.01-09.36.38:242][388]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.38:288][388]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.38:296][388]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.36.38:392][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_110, compiling. 
+[2019.01.01-09.36.39:608][443]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.39:753][443]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.39:769][443]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.36.39:877][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_110, compiling. 
+[2019.01.01-09.36.56:067][915]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.01.01-09.36.56:067][915]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-09.36.56:067][915]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.01.01-09.36.56:540][932]LogMaterialEditor: Applying material Brick
+[2019.01.01-09.36.57:194][932]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.57:384][932]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.57:406][932]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.36.57:566][932]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.57:713][932]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.57:803][932]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.57:949][932]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-09.36.57:983][932]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.37.03:646][ 32]LogSavePackage: Save=1747.30ms
+[2019.01.01-09.37.03:646][ 32]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMapEE8A54FB487B717DE3825E88F74E9017.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.01-09.37.03:820][ 32]LogSavePackage: Total save time: 1973.19ms
+[2019.01.01-09.37.03:820][ 32]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.01-09.37.03:967][ 32]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.730
+[2019.01.01-09.37.26:169][ 32]LogSavePackage: Save=164.25ms
+[2019.01.01-09.37.26:169][ 32]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Brick8CC22FB84DAB37F205EB63A78DB852A5.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Brick.uasset'
+[2019.01.01-09.37.26:190][ 32]LogSavePackage: Total save time: 189.34ms
+[2019.01.01-09.37.26:190][ 32]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Brick.uasset
+[2019.01.01-09.37.26:199][ 32]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2019.01.01-09.37.26:199][ 32]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-09.37.26:199][ 32]MaterialEditorStats: Info Texture samplers: 3/16
+[2019.01.01-09.38.16:701][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.16:701][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.01-09.38.16:754][410]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2019, 1:38:16 AM)
+[2019.01.01-09.38.16:755][410]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.01-09.38.16:875][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120461s)
+[2019.01.01-09.38.16:876][410]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.01-09.38.16:876][410]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.01.01-09.38.16:886][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.131900s)
+[2019.01.01-09.38.16:976][410]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.01-09.38.17:020][410]LogInit: FAudioDevice initialized.
+[2019.01.01-09.38.17:281][410]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.01-09.38.17:343][410]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-09.38.17:345][410]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.01-17.38.17
+[2019.01.01-09.38.17:401][410]LogWorld: Bringing up level for play took: 0.068469
+[2019.01.01-09.38.17:632][410]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 9 classes and 0 folders.
+[2019.01.01-09.38.17:826][410]LogBlueprintUserMessages: [Quest_Test_C_0] Соберите 5 коробок.
+[2019.01.01-09.38.17:848][410]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.459
+[2019.01.01-09.38.17:849][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.28:434][918]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.01-09.38.29:960][992]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.01-09.38.36:854][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.37:019][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.38:234][393]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.38:235][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.01-09.38.38:235][393]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2019, 1:38:38 AM)
+[2019.01.01-09.38.38:235][393]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.01-09.38.38:276][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041063s)
+[2019.01.01-09.38.38:282][393]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.01-09.38.38:282][393]LogPlayLevel: PIE: World Init took: (0.005697s)
+[2019.01.01-09.38.38:282][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.047158s)
+[2019.01.01-09.38.38:326][393]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.01-09.38.38:342][393]LogInit: FAudioDevice initialized.
+[2019.01.01-09.38.38:379][393]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.01-09.38.38:391][393]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-09.38.38:393][393]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.01-17.38.38
+[2019.01.01-09.38.38:394][393]LogWorld: Bringing up level for play took: 0.014317
+[2019.01.01-09.38.38:396][393]LogBlueprintUserMessages: [Quest_Test_C_1] Соберите 5 коробок.
+[2019.01.01-09.38.38:396][393]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.006
+[2019.01.01-09.38.38:396][393]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.39:807][454]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.01-09.38.51:469][ 19]LogBlueprintUserMessages: [Interactable] Hello
+[2019.01.01-09.38.55:619][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.38.55:664][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-09.59.29:353][303]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.29:397][303]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.29:665][303]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.29:762][303]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.29:786][303]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.59.29:838][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_112, compiling. 
+[2019.01.01-09.59.43:312][630]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.43:463][630]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.43:502][630]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.59.43:588][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_112, compiling. 
+[2019.01.01-09.59.47:167][726]LogMaterialEditor: Applying material Dark_brick
+[2019.01.01-09.59.49:285][726]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.49:666][726]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.49:746][726]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-09.59.49:897][726]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.50:045][726]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.50:196][726]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.50:307][726]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-09.59.50:352][726]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.00.03:177][996]LogMaterial: Missing cached shader map for material FrontColor, compiling. 
+[2019.01.01-10.00.03:282][996]LogMaterial: Missing cached shader map for material FrontColor, compiling. 
+[2019.01.01-10.00.03:881][996]LogMaterial: Missing cached shader map for material FrontColor, compiling. 
+[2019.01.01-10.00.04:087][996]LogMaterial: Missing cached shader map for material FrontColor, compiling. 
+[2019.01.01-10.00.04:121][996]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.00.04:160][996]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_111, compiling. 
+[2019.01.01-10.01.01:764][509]LogSavePackage: Save=18.60ms
+[2019.01.01-10.01.01:764][509]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Dark_brick35CA4F924EA3189EB14055B61DD0793C.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Dark_brick.uasset'
+[2019.01.01-10.01.01:768][509]LogSavePackage: Total save time: 27.53ms
+[2019.01.01-10.01.01:768][509]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Dark_brick.uasset
+[2019.01.01-10.01.01:777][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 58 instructions
+[2019.01.01-10.01.01:777][509]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-10.01.01:777][509]MaterialEditorStats: Info Texture samplers: 3/16
+[2019.01.01-10.01.06:976][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-10.01.06:976][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.01-10.01.06:976][699]PIE: New page: PIE session: TopDownExampleMap (Jan 2, 2019, 2:01:06 AM)
+[2019.01.01-10.01.06:976][699]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2019.01.01-10.01.07:023][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047080s)
+[2019.01.01-10.01.07:025][699]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2019.01.01-10.01.07:025][699]LogPlayLevel: PIE: World Init took: (0.001699s)
+[2019.01.01-10.01.07:026][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.049444s)
+[2019.01.01-10.01.07:077][699]LogInit: XAudio2 using 'Динамики (Устройство с поддержкой High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.01-10.01.07:098][699]LogInit: FAudioDevice initialized.
+[2019.01.01-10.01.07:132][699]LogWorld: Game class is 'TopDownGameMode_C'
+[2019.01.01-10.01.07:148][699]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-10.01.07:150][699]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2019.01.01-18.01.07
+[2019.01.01-10.01.07:152][699]LogWorld: Bringing up level for play took: 0.018442
+[2019.01.01-10.01.07:154][699]LogBlueprintUserMessages: [Quest_Test_C_2] Соберите 5 коробок.
+[2019.01.01-10.01.07:155][699]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.263
+[2019.01.01-10.01.07:155][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-10.01.08:309][745]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-10.01.08:385][745]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2019.01.01-10.01.30:958][574]LogActorFactory: Actor Factory created modularBuildings_001
+[2019.01.01-10.01.30:958][574]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_001.modularBuildings_001] ConvexElem[0] invalid
+[2019.01.01-10.01.30:959][574]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_001.modularBuildings_001] ConvexElem[0] invalid
+[2019.01.01-10.01.32:066][602]LogActorFactory: Actor Factory created modularBuildings_001
+[2019.01.01-10.01.32:067][602]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_001.modularBuildings_001] ConvexElem[0] invalid
+[2019.01.01-10.01.32:099][602]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_001.modularBuildings_001] ConvexElem[0] invalid
+[2019.01.01-10.01.35:841][718]Cmd: DELETE
+[2019.01.01-10.01.35:841][718]Cmd: ACTOR DELETE
+[2019.01.01-10.01.35:844][718]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.01.35:907][718]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.01.01-10.01.37:273][759]LogActorFactory: Actor Factory created modularBuildings_002
+[2019.01.01-10.01.37:274][759]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_002.modularBuildings_002] ConvexElem[0] invalid
+[2019.01.01-10.01.37:275][759]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_002.modularBuildings_002] ConvexElem[0] invalid
+[2019.01.01-10.01.37:636][767]LogActorFactory: Actor Factory created modularBuildings_002
+[2019.01.01-10.01.37:636][767]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_002.modularBuildings_002] ConvexElem[0] invalid
+[2019.01.01-10.01.37:681][767]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_002.modularBuildings_002] ConvexElem[0] invalid
+[2019.01.01-10.01.56:914][403]Cmd: DELETE
+[2019.01.01-10.01.56:914][403]Cmd: ACTOR DELETE
+[2019.01.01-10.01.56:916][403]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.01.56:951][403]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.01.01-10.02.01:236][529]LogActorFactory: Actor Factory created modularBuildings_018
+[2019.01.01-10.02.01:236][529]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_018.modularBuildings_018:BodySetup_1481)
+[2019.01.01-10.02.01:236][529]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_018.modularBuildings_018:BodySetup_1481)
+[2019.01.01-10.02.02:450][561]LogActorFactory: Actor Factory created modularBuildings_018
+[2019.01.01-10.02.02:451][561]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_018.modularBuildings_018:BodySetup_1481)
+[2019.01.01-10.02.02:493][561]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_018.modularBuildings_018:BodySetup_1481)
+[2019.01.01-10.02.03:452][593]Cmd: DELETE
+[2019.01.01-10.02.03:452][593]Cmd: ACTOR DELETE
+[2019.01.01-10.02.03:454][593]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.02.03:484][593]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.01.01-10.02.07:701][717]LogActorFactory: Actor Factory created modularBuildings_021
+[2019.01.01-10.02.07:701][717]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_021.modularBuildings_021:BodySetup_1484)
+[2019.01.01-10.02.07:701][717]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_021.modularBuildings_021:BodySetup_1484)
+[2019.01.01-10.02.08:344][736]LogActorFactory: Actor Factory created modularBuildings_021
+[2019.01.01-10.02.08:344][736]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_021.modularBuildings_021:BodySetup_1484)
+[2019.01.01-10.02.08:367][736]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_021.modularBuildings_021:BodySetup_1484)
+[2019.01.01-10.02.09:577][780]Cmd: DELETE
+[2019.01.01-10.02.09:578][780]Cmd: ACTOR DELETE
+[2019.01.01-10.02.09:579][780]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.02.09:612][780]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.01-10.02.11:516][834]LogActorFactory: Actor Factory created modularBuildings_022
+[2019.01.01-10.02.11:516][834]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.01-10.02.11:517][834]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.01-10.02.12:470][863]LogActorFactory: Actor Factory created modularBuildings_022
+[2019.01.01-10.02.12:471][863]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.01-10.02.12:497][863]LogPhysics:Warning: AddConvexElemsToRigidActor: ConvexElem is missing ConvexMesh (0: /Game/Graphics/ModularBuildings/modularBuildings_022.modularBuildings_022:BodySetup_1485)
+[2019.01.01-10.02.17:452][ 19]Cmd: DELETE
+[2019.01.01-10.02.17:452][ 19]Cmd: ACTOR DELETE
+[2019.01.01-10.02.17:453][ 19]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.02.17:481][ 19]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.01.01-10.02.31:932][441]LogActorFactory: Actor Factory created modularBuildings_073
+[2019.01.01-10.02.32:558][457]LogActorFactory: Actor Factory created modularBuildings_073
+[2019.01.01-10.02.42:586][795]Cmd: DELETE
+[2019.01.01-10.02.42:586][795]Cmd: ACTOR DELETE
+[2019.01.01-10.02.42:589][795]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.02.42:653][795]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2019.01.01-10.02.58:184][347]LogActorFactory: Actor Factory created modularBuildings_096
+[2019.01.01-10.02.59:395][384]LogActorFactory: Actor Factory created modularBuildings_096
+[2019.01.01-10.03.01:518][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_030)
+[2019.01.01-10.03.10:541][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_096)
+[2019.01.01-10.03.19:980][ 42]Cmd: MODE GRID=1
+[2019.01.01-10.04.47:076][998]Cmd: EDIT COPY
+[2019.01.01-10.04.47:436][  8]Cmd: EDIT PASTE
+[2019.01.01-10.04.57:465][347]Cmd: TRANSACTION UNDO
+[2019.01.01-10.04.57:465][347]LogEditorTransaction: Undo Move Actors
+[2019.01.01-10.04.57:538][347]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.04.57:582][347]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.04.57:604][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.04.57:646][347]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.04.57:698][347]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.04.57:723][347]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.05.26:613][830]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.01.01-10.05.26:613][830]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-10.05.26:613][830]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.01.01-10.05.52:587][310]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.01.01-10.05.52:587][310]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-10.05.52:587][310]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.01.01-10.06.07:035][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_096)
+[2019.01.01-10.06.16:117][242]Cmd: MODE GRID=0
+[2019.01.01-10.06.28:740][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_97)
+[2019.01.01-10.06.54:423][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_096)
+[2019.01.01-10.07.30:929][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_97)
+[2019.01.01-10.07.32:293][765]Cmd: DELETE
+[2019.01.01-10.07.32:294][765]Cmd: ACTOR DELETE
+[2019.01.01-10.07.32:296][765]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.07.32:376][765]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2019.01.01-10.07.33:386][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_096)
+[2019.01.01-10.07.33:717][813]Cmd: DELETE
+[2019.01.01-10.07.33:717][813]Cmd: ACTOR DELETE
+[2019.01.01-10.07.33:719][813]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.01-10.07.33:757][813]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2019.01.01-10.08.06:416][927]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.01-10.08.07:814][972]LogActorFactory: Actor Factory created modularBuildings_097
+[2019.01.01-10.08.27:632][684]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_030)
+[2019.01.01-10.08.31:026][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_097)
+[2019.01.01-10.10.42:416][ 91]Cmd: EDIT COPY
+[2019.01.01-10.10.42:771][105]Cmd: EDIT PASTE
+[2019.01.01-10.11.22:228][508]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.01.01-10.11.26:587][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_98)
+[2019.01.01-10.11.41:098][158]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (modularBuildings_98)
+[2019.01.01-10.11.57:278][687]LogSavePackage: Save=726.13ms
+[2019.01.01-10.11.57:278][687]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap3E53039642198A9F7F707D93E4C41DAE.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.01-10.11.57:285][687]LogSavePackage: Total save time: 981.02ms
+[2019.01.01-10.11.57:285][687]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.01-10.11.57:389][687]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.336
+[2019.01.01-10.11.58:568][724]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.01.01-10.11.59:421][742]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.01.01-10.12.25:725][540]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.25:771][540]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.26:217][540]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.26:330][540]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.26:362][540]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.12.26:440][540]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_114, compiling. 
+[2019.01.01-10.12.48:582][142]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.48:788][142]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.48:927][142]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.12.48:963][142]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_114, compiling. 
+[2019.01.01-10.12.51:869][198]LogMaterialEditor: Applying material Glass
+[2019.01.01-10.12.54:840][198]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.55:644][198]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.55:798][198]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.12.55:862][198]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.56:013][198]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.56:161][198]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.56:485][198]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.12.56:635][198]LogMaterial: 0.06 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.13.23:970][918]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.01.01-10.13.24:486][918]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2019.01.01-10.13.25:395][918]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2019.01.01-10.13.25:416][918]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2019.01.01-10.13.27:286][963]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2019.01.01-10.13.33:035][ 93]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.33:156][ 93]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.33:187][ 93]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.13.33:213][ 93]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.33:403][ 93]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.33:435][ 93]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.13.51:483][516]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.51:698][516]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.51:729][516]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.13.51:753][516]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.51:853][516]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.13.51:885][516]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.14.09:346][983]LogMaterialEditor: Applying material Glass
+[2019.01.01-10.14.11:719][983]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.14.12:198][983]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.14.12:267][983]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.14.12:435][983]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.14.12:553][983]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.14.12:664][983]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.14.12:837][983]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.14.12:920][983]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.15.01:725][ 14]LogSavePackage: Save=19.10ms
+[2019.01.01-10.15.01:725][ 14]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Glass2D6BFA1146E664DC4E4F9C8B56040DAD.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass.uasset'
+[2019.01.01-10.15.01:729][ 14]LogSavePackage: Total save time: 30.12ms
+[2019.01.01-10.15.01:729][ 14]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass.uasset
+[2019.01.01-10.15.01:738][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2019.01.01-10.15.01:738][ 14]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-10.15.01:738][ 14]MaterialEditorStats: Info Texture samplers: 3/16
+[2019.01.01-10.15.46:902][782]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.46:951][782]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.46:968][782]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.15.46:995][782]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_114, compiling. 
+[2019.01.01-10.15.49:494][870]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.49:602][870]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.49:637][870]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.15.49:671][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_114, compiling. 
+[2019.01.01-10.15.53:629][969]LogMaterialEditor: Applying material Glass
+[2019.01.01-10.15.56:199][969]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.56:741][969]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.56:816][969]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.15.56:884][969]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.57:083][969]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.57:286][969]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.57:499][969]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-10.15.57:557][969]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.15.57:664][971]LogHttp:Warning: Timeout processing Http request. 0000000024354580
+[2019.01.01-10.16.40:209][  0]LogSavePackage: Save=20.41ms
+[2019.01.01-10.16.40:209][  0]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Glass685C34B24F97BF7008D49CBFC6A96AC2.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass.uasset'
+[2019.01.01-10.16.40:213][  0]LogSavePackage: Total save time: 28.63ms
+[2019.01.01-10.16.40:213][  0]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass.uasset
+[2019.01.01-10.16.40:222][  0]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2019.01.01-10.16.40:222][  0]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-10.16.40:222][  0]MaterialEditorStats: Info Texture samplers: 3/16
+[2019.01.01-10.27.41:895][459]LogHttp:Warning: Timeout processing Http request. 0000000024441A80
+[2019.01.01-10.53.58:871][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_114, compiling. 
+[2019.01.01-10.54.27:545][900]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.54.27:810][900]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.54.27:860][900]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.54.27:942][900]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.54.28:067][900]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.54.28:221][900]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.54.28:354][900]LogMaterial: Missing cached shader map for material Brick, compiling. 
+[2019.01.01-10.54.28:425][900]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.54.38:671][ 43]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.54.39:028][ 43]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.54.39:126][ 43]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.54.39:223][ 43]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.54.39:388][ 43]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.54.39:508][ 43]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.54.39:633][ 43]LogMaterial: Missing cached shader map for material Dark_brick, compiling. 
+[2019.01.01-10.54.39:689][ 43]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-10.55.42:324][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_063)
+[2019.01.01-10.56.10:411][983]LogRenderer: Reallocating scene render targets to support 988x648 (Frame:214955).
+[2019.01.01-10.59.05:925][178]LogSavePackage: Save=44.79ms
+[2019.01.01-10.59.05:926][178]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Glass_Inst047EC21B4794DDCA13B16F88B8136BC1.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass_Inst.uasset'
+[2019.01.01-10.59.05:934][178]LogSavePackage: Total save time: 53.99ms
+[2019.01.01-10.59.05:934][178]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass_Inst.uasset
+[2019.01.01-10.59.19:313][509]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-11.00.14:779][479]LogSavePackage: Save=46.70ms
+[2019.01.01-11.00.14:779][479]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Glass_InstCCD1FBF041B90E013CEBD6B6B69DAEDD.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass_Inst.uasset'
+[2019.01.01-11.00.14:791][479]LogSavePackage: Total save time: 70.43ms
+[2019.01.01-11.00.14:791][479]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass_Inst.uasset
+[2019.01.01-11.00.27:166][784]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.27:253][784]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.27:273][784]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-11.00.28:498][825]LogMaterialEditor: Applying material Glass
+[2019.01.01-11.00.31:152][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.31:563][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.31:646][825]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-11.00.31:710][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.31:848][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.31:965][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.32:105][825]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2019.01.01-11.00.32:163][825]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2019.01.01-11.00.34:366][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modularBuildings_063)
+[2019.01.01-11.00.57:488][ 88]LogSavePackage: Save=3546.07ms
+[2019.01.01-11.00.57:489][ 88]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/TopDownExampleMap4317B00C477D5EF3C615BEB95FC60EC8.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2019.01.01-11.00.57:510][ 88]LogSavePackage: Total save time: 3789.86ms
+[2019.01.01-11.00.57:510][ 88]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2019.01.01-11.00.57:797][ 88]LogFileHelpers: Saving map 'TopDownExampleMap' took 4.790
+[2019.01.01-11.00.58:079][ 88]LogSavePackage: Save=125.13ms
+[2019.01.01-11.00.58:079][ 88]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Dark_brick7DA7AB1A4186CB7853FF5EA0573C2B73.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Dark_brick.uasset'
+[2019.01.01-11.00.58:092][ 88]LogSavePackage: Total save time: 154.16ms
+[2019.01.01-11.00.58:092][ 88]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Dark_brick.uasset
+[2019.01.01-11.00.58:370][ 88]LogSavePackage: Save=112.99ms
+[2019.01.01-11.00.58:370][ 88]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/Brick06017E114A1CFFF4A71AB592407D1BFB.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Brick.uasset'
+[2019.01.01-11.00.58:381][ 88]LogSavePackage: Total save time: 139.96ms
+[2019.01.01-11.00.58:381][ 88]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Brick.uasset
+[2019.01.01-11.01.30:786][ 88]LogSavePackage: Save=19.83ms
+[2019.01.01-11.01.30:786][ 88]LogSavePackage: Moving '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Saved/GlassCF973B1D4D9C866FB5E43A9695AF4A93.tmp' to '../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass.uasset'
+[2019.01.01-11.01.30:793][ 88]LogSavePackage: Total save time: 31.19ms
+[2019.01.01-11.01.30:793][ 88]LogSavePackage:Display: Finished SavePackage ../../../../sergey/UnrealProjects/TowerOfDefence_Repository/TopDownMiniGame/Content/Graphics/ModularBuildings/Glass.uasset
+[2019.01.01-11.01.30:810][ 88]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2019.01.01-11.01.30:810][ 88]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-11.01.30:810][ 88]MaterialEditorStats: Info Texture samplers: 3/16
+[2019.01.01-11.01.51:291][452]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/Graphics/ModularBuildings/modularBuildings_004.modularBuildings_004] ConvexElem[0] invalid
+[2019.01.01-11.02.09:416][  5]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2019.01.01-11.02.09:453][  5]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2019.01.01-11.02.09:861][  5]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2019.01.01-11.02.09:961][  5]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2019.01.01-11.02.09:989][  5]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2019.01.01-11.02.10:018][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_113, compiling. 
+[2019.01.01-11.02.41:553][399]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2019.01.01-11.02.41:553][399]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2019.01.01-11.02.41:553][399]MaterialEditorStats: Info Texture samplers: 0/16
+[2019.01.01-11.07.44:834][452]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2019.01.01-11.11.25:988][101]LogD3D11RHI:Error: Direct3DDevice->CreateBuffer(&Desc, NULL, UniformBufferResource.GetInitReference()) failed 
+ at D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11UniformBuffer.cpp:159 
+ with error DXGI_ERROR_DEVICE_REMOVED
+[2019.01.01-11.11.33:082][101]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.01.01-11.11.33:103][101]Log file closed, 01/01/19 19:11:33
